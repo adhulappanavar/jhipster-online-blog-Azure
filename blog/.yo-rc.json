@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sapient.developer.blog",
+    "packageFolder": "com/sapient/developer/blog",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "websocket": false,
+    "baseName": "blog",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "serverPort": "8081",
+    "jhipsterVersion": "6.4.1",
+    "buildTool": "maven",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "NWNjZjNmNjg2Y2ExMTQ4ZDhhYzQ1ZjdlYTU0NjU3MDBlODU4YWMzOWQxMDc1N2ZmNTRhYzlhNGE4OGM2Yjg2ZTE2MTdkZDA1NTEwMjY4ZTUzNmM1OTYwMGNjODlhMDA3NmM1ZGRjZTlkNTcyNDk1NGE2YzlhYzc4OGVlNjYyYjY=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Blog",
+    "Post",
+    "Tag"
+  ]
+}
