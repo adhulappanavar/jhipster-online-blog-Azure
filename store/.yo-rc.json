@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.okta.developer.store",
+    "packageFolder": "com/okta/developer/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "serverPort": "8082",
+    "jhipsterVersion": "6.4.1",
+    "buildTool": "maven",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "NTk2ZTVjZjUyYWUwMjExZjAwMWI5ZDJlZDhiM2NiMzkzOTZhMTgwZDE2MjIwZGRmYjIwNGIyYzg2YzZjMTI2NzIzNzNkMGQ4Nzg4ODRhYzNiOGFlMTNjMjQxYjJjY2I2NmUyYWRjZWMyMjJhZDYzZTY5MWJiN2RiYTlhY2FjNTg=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Product"
+  ]
+}
